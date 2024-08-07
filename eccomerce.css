@@ -1,0 +1,177 @@
+.accordion {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container-fluid, .row {
+    margin: 0;
+    padding: 0;
+}
+.accordion-button {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #c17a74 !important;
+    border: none;
+    border-radius: 0;
+}
+.accordion-button .arrow-icon {
+    position: absolute;
+    right: 20px;
+}
+.accordion-item button {
+    font-size: 18px;
+}
+@media (min-width: 992px) {
+    .accordion {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+  
+body{
+    font-family: "Roboto", sans-serif;
+}
+.a{
+    color: black !important;
+    transition: 0.2s linear;
+}
+.a:hover{
+    color: #d19c97 !important;
+}
+
+/* .p{
+    padding: 0px 10px !important;
+    margin: 8px 0px;
+    border-right: 2px solid gray;
+} */
+.navu .nav-item:nth-child(1) .nav-link::after,
+.navu .nav-item:nth-child(2) .nav-link::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height:20px;
+    background-color:grey;
+    margin-left:10px;
+    vertical-align: middle;
+}
+
+.navu .nav-item:nth-child(3) .nav-link::after {
+    display: none; /* No block after the third nav-link */
+}
+.fw{
+    font-weight: bold !important;
+    font-size: 35px;
+}
+.navbtn{
+    padding: 7px 13px !important;
+    border: 1px solid #edf1ff !important;
+}
+.s{
+    border: 1px solid #edf1ff !important;
+}
+.custom-navbar-bg {
+    background-color: white;
+}
+.aclink{
+    list-style: none;
+    display: block;
+    background-color: transparent;
+    padding:10px 0px !important;
+    margin:0px 0px !important;
+}
+.bo{
+    border: 3px sollid grey !important;
+}
+.anac{
+    text-decoration: none;
+    font-size: 18px !important;
+    color: black !important;
+}
+.arrow-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-button:not(.collapsed) .arrow-icon {
+    transform: rotate(180deg);
+  }
+.cnavbrand{
+    font-size: 35px !important;
+    font-weight: bold !important;
+}
+.f{
+    font-size: 18px !important;
+    color: black !important;
+    transition: 0.3s linear;
+}
+.f:hover{
+    color: #d19c97 !important;
+}
+.bg-white{
+    background-color: white !important;
+}
+.carousel-item img {
+    object-fit: cover; /* This will help maintain the aspect ratio */
+    max-height: 450px; /* Adjust as per your need */
+    width: 100%;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    padding: 20px; /* Optional: Add some padding */
+  }
+  .carousel-caption h5 {
+    color: #fff; /* Change text color */
+    font-size: 24px; /* Adjust font size */
+  }
+  
+  .carousel-caption p {
+    color: #ddd; /* Change text color */
+  }
+   
+/* stay tuned*/
+h1.su::before,
+h1.su::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 2px;
+    background-color: #000;
+}
+
+h1.su::before {
+    left: -70px;
+}
+h1.su::after {
+    right: -70px;
+}
+.owl-prev, .owl-next {
+    display: none !important;
+}
+
+/* Hide dots */
+.owl-dots {
+    display: none !important;
+}
+
+.eastyle{
+    color: Black !important;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    padding:2px 5px !important;
+    transition: 0.3s linear !important;
+}
+.eastyle:hover{
+    text-decoration:underline !important;
+    color: black !important;
+}
+
+.fo2{
+    padding: 16px 10px !important;
+    background-color: white !important;
+    border-radius: 0px !important;
+}
